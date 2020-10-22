@@ -218,7 +218,7 @@ open class SessionMessage: FitMessage {
     private(set) public var totalDescent: Measurement<UnitLength>?
     
     /// Total Training Effect
-    @FitField(base: BaseTypeData(type: .uint8, resolution: Resolution(scale: 10.0, offset: 0.0)),
+    @FitField(base: BaseTypeData(type: .uint8, resolution: Resolution(scale: 1.0, offset: 0.0)),
               fieldNumber: 24)
     private(set) public var totalTrainingEffect: UInt8?
     
